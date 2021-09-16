@@ -1,0 +1,78 @@
+body {
+    background-image: url("background.gif");
+    background-size: 100% 100%;
+    font-family: "MV Boli";
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+h1 {
+    color: palegoldenrod;
+    text-align: center;
+    font-weight: bolder;
+}
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+}
+.left {
+    text-align: left;
+}
+h5 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    color: papayawhip;
+    text-align: center;
+    margin-left:25%;
+    margin-right:25%;
+    font-weight: bold;
+    font-size: large;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+    border-radius: 50%;
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    width: 40%;
+    margin-left: 30%;
+    color: papayawhip;
+    font-weight: bold;
+}
+ul li:before {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: 40px;
+    background-image: url("https://64.media.tumblr.com/6499232dbca6a8752392f551404fba82/tumblr_nxoaygqQNw1ulvtiko1_540.gifv");
+    background-repeat: no-repeat;
+}
+.disco li:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: 30px;
+    background-image: url("https://45.media.tumblr.com/1efdde712b23a038abef6bc645c3836f/tumblr_o0lp0chqAX1uyw2hyo1_500.gif");
+    background-repeat: no-repeat;
+}
+table{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: papayawhip;
+}
+
+
